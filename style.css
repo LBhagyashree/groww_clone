@@ -143,18 +143,7 @@ font-size:1.32vw;
 	top:0.7vh;
 	left:1vw;
 }
-#crsr1,  #crsr3 {
-	position :relative;
-	top : 2vh;
-	left: 10vw;
-	align-items: center;
-}
-#crsr2 {
-	position: relative;
-	top: 12px;
-	left: 8.7vw;
-	align-items: center;
-}
+
 
 #crdtst{
 	margin: 24.3531vh 0px 12.1766vh 0px;
@@ -308,4 +297,81 @@ right:2vw;
 	border:0px;
 	background-color:white;
 	cursor: pointer;
+}
+
+
+
+/* FOOTER */
+
+footer{
+	margin-top: 13vmax;
+	height: 200vmax;
+	background-color: gray;
+	display:flex;
+	flex-direction: column;
+}
+
+#footer1 {
+	margin-top: 15vmax;
+	margin-left: 50%;
+}
+
+#footer1 > h3 {
+	margin-top: 2vmax;
+	font-size: 5vmax;
+	margin-left: -30%;
+	font-family: "Roboto";
+}
+
+#yt , #grw {
+	text-decoration: none;
+	color: black;
+}
+
+#ftrbtn{
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 4vmax;
+	margin-left: -30%;
+	margin-right: 60%;
+	
+}
+
+.btnyt, .btngrw {
+	
+	width: 12vmax;
+	height: 4vmax;
+	border-radius:30px;
+	border: none;
+	font-family:"Roboto";
+	font-size: 1.2vmax;
+}
+
+#footer2 {
+	margin-top: 13vmax;
+	height: 90vmax;
+	display: flex;
+	background-color: rgb(1,2,19, 0.767);
+	font-family: "Roboto";
+}
+
+#footerUpr {
+	margin-left:10vmax;
+	display: flex;
+}
+
+#add {
+	margin-top: 2vmax;
+	margin-left: 2vmax;
+	color: white;
+	font-family: "Roboto";
+	font-weight:bold;
+}
+
+#cntct56 > a {
+	margin-left: 1vmax;
+	color: white;
+	font-family: "Roboto";
+	font-weight:bold;
+	
 }
