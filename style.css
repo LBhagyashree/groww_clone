@@ -375,3 +375,97 @@ footer{
 	font-weight:bold;
 	
 }
+
+@media (max-width: 650px) {
+	
+	#logo{
+	margin-top: -50%;
+	margin-left: -12%;
+	justify-content: left;
+	width: 25vw;
+	background-position: left top;
+	}
+	
+	#srchbx{
+		border: none;
+	}
+	
+	#srchbx> input {
+	display: none;
+	border: 0px;
+	}
+	
+	#btn1{
+		display: none;
+	}
+	
+	#srch {
+		position:relative;
+		left:22vw;
+		bottom:1vh;
+	}
+	#bar1{
+		width:5vw;
+		height:0.2vh;
+		background-color:black;
+		box-sizing:border-box;
+	}
+	#bar2{
+		position: relative;
+		width:5vw;
+		height:0.2vh;
+		background-color:black;
+		top:0.3vh;
+	}
+	#bar3{
+		position: relative;
+		width:5vw;
+		height:0.2vh;
+		background-color:black;
+		top:0.6vh;
+	}
+	#bar{
+		position: relative;
+		bottom:1.3vh;
+		left:15vw;
+	}
+	
+	#body{
+	box-sizing:border-box;
+	}
+	#hdr1{
+	margin: 0px 14.65vw 0px 14.65vw;
+	font-size: 8vw;
+	font-family: "Roboto";
+	font-weight: bold;
+	justify-content: center;
+	align-items: center;
+	}
+	#hdr2{
+	margin: 3.044vh 14.65vw 0px 14.65vw;
+	font-size: 4vw;
+	font-weight: bold;	
+	font-family: "Roboto";
+	color: grey;
+	justify-content: center;
+	align-items: center;
+	}
+	
+	#btn2{
+	width: 30vw;
+	height:6.1vh;
+	color:white;
+	margin: 1.522vh 0.732vw 1.522vh 0.732vw;
+	border: 3px solid #3cb371;
+	border-radius: 0.366vw;
+	background-color: #3cb371;
+	
+	font-family: "Roboto";
+	font-size:4vw;
+	cursor: pointer;
+	}
+	#gets{
+	margin:1.522vh 0.732vw 1.522vh 0.732vw;
+	padding:0.3044vh 0.15vw 0.3044vh 0.15vw;
+	}
+}
